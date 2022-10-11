@@ -38,7 +38,7 @@ export default {
     <div class="container">
       <div class="title m-20 p-10">
         <div class="logo mt-20 mb-10">
-          <img src="@/pkg/kubewarden/assets/icon-kubewarden.svg" height="64" />
+          <img src="https://www.kubewarden.io/images/logo-kubewarden.svg" height="64" />
         </div>
         <h1 class="mb-10">
           {{ t('kubewarden.title') }}
