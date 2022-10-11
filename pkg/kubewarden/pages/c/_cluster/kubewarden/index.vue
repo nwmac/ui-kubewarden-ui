@@ -20,9 +20,9 @@ export default {
       },
       query: {
         [REPO_TYPE]: 'cluster',
-        [REPO]:      'rancher-charts',
+        [REPO]:      'kubewarden',
         [CHART]:     'kubewarden-controller',
-        [VERSION]:   'latest' // change this to get the latest version from charts listed by rancher-charts
+        // [VERSION]:   'latest' // change this to get the latest version from charts listed by rancher-charts
       }
     };
 
