@@ -13,8 +13,8 @@ export default {
 
   data() {
     const getStartedLink = {
+      name:    'c-cluster-apps-charts-install',
       params: {
-        name:    'c-cluster-apps-charts-install',
         cluster:  this.$route.params.cluster,
         product:  CATALOG.APP,
       },
@@ -36,14 +36,11 @@ export default {
 <template>
   <div class="main">
     <div class="container">
-      <div class="title m-20 p-10">
+      <div class="title margin-100 p-10">
         <div class="logo mt-20 mb-10">
           <img src="https://www.kubewarden.io/images/logo-kubewarden.svg" height="64" />
         </div>
-        <h1 class="mb-10">
-          {{ t('kubewarden.title') }}
-        </h1>
-        <div>
+        <div class="description">
           {{ t('kubewarden.install.description' ) }}
         </div>
 
@@ -81,5 +78,13 @@ export default {
     align-items: center;
     text-align: center;
   }
+}
+
+.margin-100 {
+  margin: 100px 0 !important;
+}
+
+.description {
+  line-height: 20px;
 }
 </style>
